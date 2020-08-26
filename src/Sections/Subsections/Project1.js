@@ -10,7 +10,7 @@ const LaColonia = () => {
             </div>
             <div className="row mt-3">
                 <div className="col-12">
-                    <p className="text-justify px-3 pr-lg-4">
+                    <p className="text-justify px-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Sit reiciendis maiores perspiciatis modi rem,
                         quasi, sapiente libero eveniet facilis alias nihil
@@ -29,15 +29,11 @@ const LaColonia = () => {
             </div>
             <div className="row cow-cols-sm-1 row cols-lg-2 mt-3">
                 <div className="col-sm-12 col-md-6 col-lg-12">
-                    <p className="text-justify text-md-left px-3 pr-md-0">
+                    <p className="text-justify text-md-left px-3 pr-md-0 pt-lg-auto">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Sit reiciendis maiores perspiciatis modi rem,
                         quasi, sapiente libero eveniet facilis alias nihil
-                        ea inventore quisquam, et quod non mollitia deserunt incidunt.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Provident maxime, quasi voluptatibus laborum eum et reprehenderit
-                        similique ducimus ullam doloribus a dolor illum mollitia atque
-                        animi earum tempora ratione ea.
+                        ea inventore quisquam, et quod non mollitia deserunt incidunt.                        
                     </p>
                 </div>
                 <div className="col-sm-12 col-md-6 d-lg-none text-right">
@@ -62,10 +58,6 @@ const LaColonia = () => {
                         Sit reiciendis maiores perspiciatis modi rem,
                         quasi, sapiente libero eveniet facilis alias nihil
                         ea inventore quisquam, et quod non mollitia deserunt incidunt.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Provident maxime, quasi voluptatibus laborum eum et reprehenderit
-                        similique ducimus ullam doloribus a dolor illum mollitia atque
-                        animi earum tempora ratione ea.
                     </p>
                 </div>
             </div>
