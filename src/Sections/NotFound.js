@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <div className="container-fluid font-pridi my-5 pl-3 bg-dark text-white">
+        <div className="container-fluid font-pridi my-5 bg-dark text-white">
                 <div className="row my-5 px-3">
                     <div className="col-11 col-md-10">
                         <h3 className="mt-5 text-danger">404!</h3>

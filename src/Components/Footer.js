@@ -4,8 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer mt-auto py-3 font-mitr">
             <div className="container-fluid text-sm-center text-md-center text-lg-right mt-lg-3">
-                <span className="font-weight-light mr-2">2020 Iñaki Errandonea</span>
-                <a href="https://friconix.com/" className="text-muted font-weight-lighter">Icons by Friconix</a>
+                <span className="font-weight-light">2020 Iñaki Errandonea</span>
             </div>
         </footer>
     )
