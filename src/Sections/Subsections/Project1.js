@@ -5,7 +5,7 @@ const LaColonia = () => {
         <div className="container-fluid font-pridi">
             <div className="row">
                 <div className="col-12">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-banner.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-banner-1920x1080.jpg" alt="" />
                 </div>
             </div>
             <div className="row mt-3">
@@ -24,7 +24,7 @@ const LaColonia = () => {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-bag.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-front-1280x720.jpg" alt="" />
                 </div>
             </div>
             <div className="row cow-cols-sm-1 row cols-lg-2 mt-3">
@@ -37,18 +37,18 @@ const LaColonia = () => {
                     </p>
                 </div>
                 <div className="col-sm-12 col-md-6 d-lg-none text-right">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-closeup.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-closeup-720x720.jpg" alt="" />
                 </div>
             </div>
             <div className="row mt-3">
                 <div className="col">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-back.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-bolsa-back-1280x720.jpg" alt="" />
                 </div>
             </div>
             <hr />
             <div className="row mt-3">
                 <div className="col">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack-1280x720.jpg" alt="" />
                 </div>
             </div>
             <div className="row mt-3">
@@ -63,7 +63,7 @@ const LaColonia = () => {
             </div>
             <div className="row cow-cols-sm-1 row-cols-lg-1 mt-3">
                 <div className="col-12 col-lg-6">
-                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack-closeup.png" alt="" />
+                    <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack-closeup-1280x720.jpg" alt="" />
                 </div>
                 <div className="col-12 col-lg-6 mt-3 mt-lg-0">
                     <p className="text-justify px-3">
@@ -71,23 +71,23 @@ const LaColonia = () => {
                         Sit reiciendis maiores perspiciatis modi rem,
                         quasi, sapiente libero eveniet facilis alias nihil
                         ea inventore quisquam, et quod non mollitia deserunt incidunt.
-                    </p>
+                    </p> 
                 </div>
             </div>
             <hr />
             <div className="row mt-3">
                 <div className="col-12">
                 <h3>Packaging</h3>
-                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-packaging.png" alt="" />
+                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-packaging-plans-1280x720.png" alt="" />
                 </div>
             </div>
             <hr />
             <div className="row mt-5">
                 <div className="col-6 p-3">
-                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-logo.png" alt="" />
+                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-logo-1280x1080.png" alt="" />
                 </div>
                 <div className="col-6 p-5">
-                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack-single.png" alt="" />
+                <img className="img-fluid" src="/img/la-colonia-entobakery/la-colonia-entobakery-doypack-single-540x540.jpg" alt="" />
                 </div>
             </div>
             <div className="row mt-1">

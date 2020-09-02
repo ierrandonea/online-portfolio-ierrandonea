@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 .font-mitr{
   font-family: 'Mitr';
 }
@@ -66,7 +70,7 @@ html {
   }
 }
 
-@media (min-width: 992px {
+@media (min-width: 992px) {
   html {
     font-size: 1.6rem;
   }
