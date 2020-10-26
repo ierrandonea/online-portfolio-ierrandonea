@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import DesProjectCard from '../Components/DesProjectCard';
+import DevProjectCard from '../Components/DevProjectCard';
+import { Context } from '../store/appContext';
 
 const Projects = () => {
-    return(
+    const { store } = useContext(Context); 
+    return (
         <div className="container-fluid">
-            <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 no-gutters d-flex flex-wrap">
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to="/projects/la-colonia-entobakery"><img src="/img/la-colonia-entobakery/la-colonia-entobakery-portada-640x640.jpg" alt="" className="img-fluid"/></Link></div>
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to=""><img src="https://place-hold.it/640x640" alt="" className="img-fluid"/></Link></div>
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to=""><img src="https://place-hold.it/640x640" alt="" className="img-fluid"/></Link></div>
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to=""><img src="https://place-hold.it/640x640" alt="" className="img-fluid"/></Link></div>
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to=""><img src="https://place-hold.it/640x640" alt="" className="img-fluid"/></Link></div>
-                <div className="col-sm-12 col-md-6 col-lg-4"><Link to=""><img src="https://place-hold.it/640x640" alt="" className="img-fluid"/></Link></div>
+            <div className="row">
+                <h2 className="display-6 mt-3 px-3">Como desarrollador, esoty feliz de poder mostrarte los proyectos que inician mi carrera:</h2>
+            </div>
+            <div className="row d-flex flex-wrap">
+                {
+                    !!store.projects &&
+                    store.projects.map((projekt, index) => {
+                        return (
+                            <DevProjectCard project={projekt} key={index} />
+                        )
+                    })
+                }
+            </div>
+            <div className="row">
+                <h2 className="display-6 mt-3 px-3">Como diseñador, tengo experiencia en logos, marcas y comunicación visual:</h2>
+            </div>
+            <div className="row d-flex flex-wrap py-3">
+                {
+                    !!store.designProjects &&
+                    store.designProjects.map((projekt, index) => {
+                        return (
+                            <DesProjectCard project={projekt} key={index} />
+                        )
+                    })
+                }
             </div>
         </div>
     )

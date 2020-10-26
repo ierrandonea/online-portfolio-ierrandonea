@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Pridi:wght@300;400&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 575px) {
+  .card-thumbnail {
+    width: 99%;
+  }
+  .card-thumbnail-dev {
+    width: 99%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .card-thumbnail {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-thumbnail {
+    width: 32%;
+  }
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.font-mitr{
+  font-family: 'Mitr';
+}
+
+.font-pridi {
+  font-family: 'Pridi';
+}
+
+.font-weight-lighter {
+  font-weight: 200;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.LCE-color1 {
+  background: #775044;
+  height: 5rem;
+}
+
+.LCE-color2 {
+  background: #F39300;
+  height: 5rem;
+}
+
+.LCE-color3 {
+  background: #E64F16;
+  height: 5rem;
+}
+
+.AC-color1 {
+  background: #B72B22;
+  height: 5rem;
+}
+.AC-color2 {
+  background: #E0A101;
+  height: 5rem;
+}
+.AC-color3 {
+  background: #2E3192;
+  height: 5rem;
+}
+.AC-color4 {
+  background: #FDE8E9;
+  height: 5rem;
+}
+.AC-color5 {
+  background: #1C6A2F;
+  height: 5rem;
+}
+
