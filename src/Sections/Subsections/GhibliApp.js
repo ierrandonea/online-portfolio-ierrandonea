@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const GhibliApp = () => {
+    const history = useHistory();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <div className="container-fluid font-pridi">
+            <div className="row pb-3 pt-4 px-3">
+                <span className="btn btn-secondary" onClick={() => { history.push("/projects") }}>Volver</span>
+            </div>
             <h2 className="py-5">Studio Ghibli Visual Guide</h2>
             <div className="row">
                 <div className="col-12">

@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const CoffeeClub = () => {
+    const history = useHistory();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <div className="container-fluid font-pridi">
-            <h2 className="py-5">The Coffe Club</h2>
+            <div className="row pb-3 pt-4 px-3">
+                <span className="btn btn-secondary" onClick={() => { history.push("/projects") }}>Volver</span>
+            </div>
+            <h2 className="py-5">The Coffee Club</h2>
             <div className="row">
                 <div className="col-12">
                     <p className="text-justify mt-3 px-5">
-                        The Coffe Club es una tienda virtual, planificada para ser una boutique de café y experiencias en torno al mismo,
+                        The Coffee Club es una tienda virtual, planificada para ser una boutique de café y experiencias en torno al mismo,
                         se trata de un proyecto en conjunto realizado como evaluación final en 4Geeks Academy.
                         <br /><br />
                         Al día de hoy es un proyecto en desarrollo para mejorar y complementar habilidades en programación.
@@ -115,7 +123,7 @@ const CoffeeClub = () => {
                 <p className="col-12 col-lg-3">El usuario también puede visualizar los detalles de un producto, además de agregar y eliminar objetos de su carro de compra</p>
                 <div className="card col-12 col-lg-7 bg-light d-flex flex-row">
                     <div className="w-50">
-                        <img src="/static/projects/coffee-club/coffee-nav8-800x450.jpg" className="img-fluid pr-2 py-2" />
+                        <img src="/static/projects/coffee-club/coffee-nav2-800x450.jpg" className="img-fluid pr-2 py-2" />
                     </div>
                     <div className="w-50">
                         <img src="/static/projects/coffee-club/coffee-nav7-800x450.jpg" className="img-fluid py-2" />
@@ -191,7 +199,7 @@ const CoffeeClub = () => {
                 </div>
             </div>
             <hr />
-            <h3 className="py-5">Puedes visitar el repositorio y demo de este proyecto aquí:</h3>
+            <h3 className="py-5">Puedes visitar los repositorios de este proyecto aquí:</h3>
             <div className="row mb-5 d-flex justify-content-around">
                 <a href="https://github.com/ierrandonea/proyecto-final-4geeks-front" className="col-5 btn btn-sm btn-outline-dark d-flex justify-content-center align-items-baseline pt-2" target="_blank">
                     <h4 className="mr-2">Front</h4><i class="fab fa-github fa-2x"></i>

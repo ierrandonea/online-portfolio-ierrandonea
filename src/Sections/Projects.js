@@ -5,11 +5,13 @@ import DevProjectCard from '../Components/DevProjectCard';
 import { Context } from '../store/appContext';
 
 const Projects = () => {
-    const { store } = useContext(Context); 
+    const { store } = useContext(Context);
     return (
         <div className="container-fluid">
-            <div className="row">
-                <h2 className="display-6 mt-3 px-3">Como desarrollador, esoty feliz de poder mostrarte los proyectos que inician mi carrera:</h2>
+            <div className="row d-flex justify-content-center">
+                <div className="col-12 col-md-8 col-lg-4 bg-black text-white my-5 text-center">
+                    <h1 className="my-3">Como desarrollador:</h1>
+                </div>
             </div>
             <div className="row d-flex flex-wrap">
                 {
@@ -21,8 +23,10 @@ const Projects = () => {
                     })
                 }
             </div>
-            <div className="row">
-                <h2 className="display-6 mt-3 px-3">Como diseñador, tengo experiencia en logos, marcas y comunicación visual:</h2>
+            <div className="row d-flex justify-content-center">
+                <div className="col-12 col-md-6 col-lg-4 bg-black text-white my-5 text-center">
+                    <h1 className="my-3">Como diseñador:</h1>
+                </div>
             </div>
             <div className="row d-flex flex-wrap py-3">
                 {
