@@ -38,6 +38,10 @@ const Projects = () => {
                     })
                 }
             </div>
+            <hr className="pt-5"/>
+            <div className="row pt-5 px-3">
+                <p className="text-muted">* Esta página está en construcción, más proyectos en camino!</p>
+            </div>
         </div>
     )
 }
