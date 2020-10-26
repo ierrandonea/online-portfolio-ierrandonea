@@ -33,7 +33,7 @@ const About = () => {
                     <h2 className="text-center text-secondary">Si te llamé la atención, tal vez podrías...</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-center my-5">
                         <a href="https://www.linkedin.com/in/ierrandonea" class="btn btn-primary btn-lg mx-5 mx-md-3 mx-lg-5 mt-3 d-flex align-items-center" target="_blank">Conectar en<i class="fab fa-linkedin fa-2x ml-2"></i></a>
-                        <a href="/static/misc/resumen_inaki_errandonea.pdf" class="btn btn-danger btn-lg mx-5 mx-md-3 mx-lg-5 mt-3 d-flex align-items-center">Descargar mi CV<i class="fas fa-file-pdf fa-2x ml-2"></i></a>
+                        <a href="/static/misc/resumen-inaki-errandonea.pdf" class="btn btn-danger btn-lg mx-5 mx-md-3 mx-lg-5 mt-3 d-flex align-items-center" target="_blank">Descargar mi CV<i class="fas fa-file-pdf fa-2x ml-2"></i></a>
                         <a href="https://github.com/ierrandonea" class="btn btn-secondary btn-lg mx-5 mx-md-3 mx-lg-5 mt-3 d-flex align-items-center" target="_blank">Visitar mi<i class="fab fa-github-square fa-2x ml-2"></i></a>
                     </div>
                 </div>
