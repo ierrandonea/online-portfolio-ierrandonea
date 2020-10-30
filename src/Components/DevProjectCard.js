@@ -6,7 +6,7 @@ const DevProjectCard = (project, linkRoute) => {
     const [state, setState] = useState(" d-none");
 
     return (
-        <div className="col-12 col-md-6 px-0 py-3 my-1 my-md-0" onMouseOver={() => setState(" d-flex animate__fadeIn")} onMouseLeave={() => setState(" animate__fadeOut d-flex")}>
+        <div className="col-12 col-md-4 px-0 py-3 my-1 my-md-0" onMouseOver={() => setState(" d-flex animate__fadeIn")} onMouseLeave={() => setState(" animate__fadeOut d-flex")}>
             <div className="card border-0 rounded-0 d-flex justify-content-center">
                 <img src={`/static/covers/${project.project.cover}`} className="card-img img-fluid rounded-0" alt="..." />
                 <div className={"card-img-overlay text-white rounded-0 p-2 animate__animated flex-column justify-content-center align-items-center" + state} >

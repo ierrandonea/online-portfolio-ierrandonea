@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <div className="container-fluid font-pridi">
             <div className="row row-cols-sm-1 row-cols-lg-2">

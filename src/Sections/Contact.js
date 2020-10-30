@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -12,6 +12,9 @@ const Contact = () => {
                     alert('Ocurrió un error, por favor intentale denuevo', error.text)
                 })
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div className="container-fluid text-center font-pridi">

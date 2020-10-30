@@ -22,6 +22,8 @@ import CoffeeClub from './Sections/Subsections/CoffeeClub';
 // components
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import FintualSim from './Sections/Subsections/FintualSim';
+import PosterOscar from './Sections/Subsections/PosterOscar';
 
 const Main = () => {
 
@@ -35,8 +37,10 @@ const Main = () => {
           <Route exact path="/projects/la-colonia-entobakery" component={LaColonia} />
           <Route exact path="/projects/agua-cuncumen" component={Cuncumen} />
           <Route exact path="/projects/keeprunners-a-kr" component={KeepRunners} />
+          <Route exact path="/projects/poster-oscar-rios" component={PosterOscar} />
           <Route exact path="/projects/ghibli-visual-guide" component={GhibliApp} />
           <Route exact path="/projects/coffee-club" component={CoffeeClub} />
+          <Route exact path="/projects/fintual-investment-simulator" component={FintualSim} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route component={NotFound} />

@@ -12,6 +12,14 @@ const getState = ({ getStore, getActions, setStore }) => {
                     website: ""
                 },
                 {
+                    name: "Fintual Investment Simulator",
+                    cover: "fintual-investment-simulator.jpg",
+                    route: "fintual-investment-simulator",
+                    github_front: "fintual-invest-simulator",
+                    github_back: "",
+                    website: "https://invest-simulator.vercel.app"
+                },
+                {
                     name: "Studio Ghibli Visual Guide",
                     cover: "ghibli-visual-guide.png",
                     route: "ghibli-visual-guide",
@@ -35,6 +43,11 @@ const getState = ({ getStore, getActions, setStore }) => {
                     name: "Cuncumen",
                     cover: "cuncumen.jpg",
                     route: "agua-cuncumen"
+                },                
+                {
+                    name: "Este no es un afiche de Oscar Ríos",
+                    cover: "poster-oscar.png",
+                    route: "poster-oscar-rios"
                 }
             ],
             otherProjects: [                
