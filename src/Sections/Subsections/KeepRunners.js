@@ -37,7 +37,7 @@ const Cuncumen = () => {
             <div className="row">
                 <div className="col-12">
                     <p className="text-justify px-5">
-                        La imagen original constaba de un logo y una mascota corporativa, bautizada por los miembros del club como "chinito corriendo".
+                        La imagen original constaba de un logo y una mascota corporativa, bautizada por los miembros del club como "monito corriendo".
                         <br /><br />
                         El cliente deseaba rescatar elementos clave de sus logo y mascota para el desarrollo de la nueva imagen, por lo que se evaluaron opciones que consideraban las iniciales del grupo y una transformación de la mascota.
                     </p>
