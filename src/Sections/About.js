@@ -61,7 +61,7 @@ const About = () => {
             </div> */}
             <div className="row">
                 <div className="col-12 d-flex flex-column flex-lg-row justify-content-around align-items-center align-items-lg-baseline">
-                    <a href="tel:+56977978155" className="mt-5 mb-1 d-flex align-items-baseline"><i class="fab fa-whatsapp fa-2x mr-2"></i><h4>(+56) 9 77 97 8155</h4></a>
+                    <a href="https://wa.link/0a5vjc" className="mt-5 mb-1 d-flex align-items-baseline"><i class="fab fa-whatsapp fa-2x mr-2"></i><h4>(+56) 9 77 97 8155</h4></a>
                     <a href="mailto:ierrandoneag@gmail.com" className="mb-1 d-flex align-items-baseline"><i class="far fa-envelope fa-2x mr-2"></i><h4>ierrandoneag@gmail.com</h4></a>
                     <a href="https://www.instagram.com/ierrandonea/" className="mb-1 d-flex align-items-baseline"><i class="fab fa-instagram fa-2x mr-2"></i><h4>@ierrandonea</h4></a>
                 </div>
