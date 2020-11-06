@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Pridi:wght@300;400&display=swap');
 
 body {
-  width: 100%;
-  height: 100vh;
   margin: 0;
   font-family: 'Roboto', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +27,15 @@ html {
   .card-thumbnail {
     width: 32%;
   }
+}
+
+.w-10{
+  width: 10%;
+}
+
+.cover{
+  object-fit: cover !important;
+  height: 1000px;
 }
 
 .card-img-overlay {
@@ -69,6 +76,10 @@ html {
 
 .font-weight-bold {
   font-weight: 500;
+}
+
+.text-info{
+  color: #3aabb8 !important;
 }
 
 .LCE-color1 {

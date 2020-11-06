@@ -7,9 +7,9 @@ const FintualSim = () => {
         window.scrollTo(0, 0);
     }, [])
     return (
-        <div className="container-fluid font-pridi">
+        <div className="container-fluid font-pridi animate__animated animate__fadeInDown">
             <div className="row pb-3 pt-4 px-3">
-                <span className="btn btn-secondary" onClick={() => { history.push("/projects") }}>Volver</span>
+                <span className="btn btn-secondary" onClick={() => { history.push("/") }}>Volver</span>
             </div>
             <h2 className="py-5">Simulador de Inversiones "What if"</h2>
             <div className="row">
