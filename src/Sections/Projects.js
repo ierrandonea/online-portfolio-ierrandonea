@@ -7,7 +7,7 @@ import { Context } from '../store/appContext';
 const Projects = () => {
     const { store } = useContext(Context);
     return (
-        <div className="container-fluid font-pridi pb-5" id="projects">
+        <div className="container-fluid font-pridi" id="projects">
             <div className="row d-flex justify-content-center">
                 <div className="col bg-black text-white text-center">
                     <h3 className="py-2">Aquí puedes ver algunos de mis proyectos como desarrollador y como diseñador:</h3>

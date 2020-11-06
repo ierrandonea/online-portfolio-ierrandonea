@@ -47,7 +47,7 @@ const Navbar = () => {
             activeClass="selected"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-110}
             duration={2000}>
               Acerca de
             </Nav>
