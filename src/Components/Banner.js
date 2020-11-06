@@ -14,6 +14,7 @@ const Banner = () => {
                             <br />
                         <strong className="font-mitr font-weight-bold">IÑAKI ERRANDONEA</strong>
                     </h1>
+                    <h3>Diseñador de Productos & FullStack Developer</h3>
                     <Nav
                         className="btn btn-outline-dark rounded-sm mb-5"
                         to="projects"
