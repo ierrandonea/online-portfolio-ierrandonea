@@ -42,26 +42,26 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Nav
-            className="nav-link"
-            to="about"
-            activeClass="selected"
-            spy={true}
-            smooth={true}
-            offset={-110}
-            duration={2000}>
+              className="nav-link"
+              to="about"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              offset={-110}
+              duration={2000}>
               Acerca de
             </Nav>
           </li>
           <li className="nav-item">
             <Nav
-            className="nav-link"
-            to="contact"
-            activeClass="selected"
-            spy={true}
-            smooth={true}
-            offset={-450}
-            duration={2000}>
-            Contacto
+              className="nav-link"
+              to="contact"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              offset={-450}
+              duration={2000}>
+              Contacto
             </Nav>
           </li>
         </ul>

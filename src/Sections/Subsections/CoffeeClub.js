@@ -80,20 +80,20 @@ const CoffeeClub = () => {
                         <li>Redireccionar el pago exitoso/error en el pago</li>
                         <li>Agregar y editar nuevos productos</li>
 
-                        <span className="text-small text-muted">*la gestión de productos está disponible sólo para el administrador.</span>
+                        <span className="text-small ">*la gestión de productos está disponible sólo para el administrador.</span>
 
                     </ul>
                 </div>
             </div>
             <div className="card bg-light my-5">
-                <p className="card-title text-center text-muted pt-3">Uso de filtros dinámicos</p>
+                <p className="card-title text-center  pt-3">Uso de filtros dinámicos</p>
                 <div className="card-body row d-flex justify-content-center">
                     <div className="col-12 col-lg-5">
                         <img src="/static/projects/coffee-club/coffee-nav-800x450.jpg" className="img-fluid" />
                     </div>
                     <div className="col-1 d-flex justify-content-center align-items-center py-2 py-lg-0">
-                        <i class="fas fa-angle-double-down fa-4x text-muted d-lg-none"></i>
-                        <i class="fas fa-angle-double-right fa-4x text-muted d-none d-lg-block"></i>
+                        <i class="fas fa-angle-double-down fa-4x  d-lg-none"></i>
+                        <i class="fas fa-angle-double-right fa-4x  d-none d-lg-block"></i>
                     </div>
                     <div className="col-12 col-lg-5">
                         <img src="/static/projects/coffee-club/coffee-nav3-800x450.jpg" className="img-fluid" />
@@ -101,21 +101,21 @@ const CoffeeClub = () => {
                 </div>
             </div>
             <div className="card bg-light my-5">
-                <p className="card-title text-center text-muted pt-3">Uso de filtros dinámicos</p>
+                <p className="card-title text-center  pt-3">Uso de filtros dinámicos</p>
                 <div className="card-body row d-flex justify-content-center">
                     <div className="col-12 col-lg-5">
                         <img src="/static/projects/coffee-club/coffee-nav4-800x450.jpg" className="img-fluid" />
                     </div>
                     <div className="col-2 d-flex justify-content-center align-items-center py-2 py-lg-0">
-                        <i class="fas fa-angle-double-down fa-4x text-muted d-lg-none"></i>
-                        <i class="fas fa-angle-double-right fa-4x text-muted d-none d-lg-block"></i>
+                        <i class="fas fa-angle-double-down fa-4x  d-lg-none"></i>
+                        <i class="fas fa-angle-double-right fa-4x  d-none d-lg-block"></i>
                     </div>
                     <div className="col-12 col-lg-5">
                         <img src="/static/projects/coffee-club/coffee-nav5-800x450.jpg" className="img-fluid" />
                     </div>
                     <div className="col-1 d-flex justify-content-center align-items-center py-2 py-lg-0">
-                        <i class="fas fa-angle-double-down fa-4x text-muted d-lg-none"></i>
-                        <i class="fas fa-angle-double-right fa-4x text-muted d-none d-lg-block"></i>
+                        <i class="fas fa-angle-double-down fa-4x  d-lg-none"></i>
+                        <i class="fas fa-angle-double-right fa-4x  d-none d-lg-block"></i>
                     </div>
                     <div className="col-12 col-lg-5 my-4">
                         <img src="/static/projects/coffee-club/coffee-nav6-800x450.jpg" className="img-fluid" />
@@ -134,69 +134,75 @@ const CoffeeClub = () => {
                 </div>
             </div>
             <div className="row mt-3 pt-5 text-center">
-                <p className="col-12 pt-5">Adicionalmente, puede crear una cuenta o autenticarse si ya tiene una, además de modificar su información personal</p>
+                <p className="col-12">Adicionalmente, puede crear una cuenta o autenticarse si ya tiene una, además de modificar su información personal</p>
             </div>
             <div className="card bg-light my-5">
-                <p className="card-title text-center text-muted pt-3">Vista de registro, login y cuenta</p>
+                <p className="card-title text-center pt-3">Vista de registro, login y cuenta</p>
                 <div className="card-body row d-flex justify-content-center">
-                    <div className="col-4">
+                    <div className="col-12 col-lg-4 my-3 my-lg-0">
                         <img src="/static/projects/coffee-club/coffee-nav10-800x450.jpg" className="img-fluid" />
                     </div>
-                    <div className="col-4">
+                    <div className="col-12 col-lg-4 my-3 my-lg-0">
                         <img src="/static/projects/coffee-club/coffee-nav8-800x450.jpg" className="img-fluid" />
                     </div>
-                    <div className="col-4">
+                    <div className="col-12 col-lg-4 my-3 my-lg-0">
                         <img src="/static/projects/coffee-club/coffee-nav11-800x450.jpg" className="img-fluid" />
                     </div>
                 </div>
             </div>
             <div className="row mt-3 pt-5 text-center">
-                <p className="col-12 pt-5">También es posible realizar pagos a través de la plataforma PayPal</p>
+                <p className="col-12">También es posible realizar pagos a través de la plataforma PayPal</p>
             </div>
-            <div className="card bg-light m-5">
-                <p className="card-title text-center text-muted pt-3">Ejemplo de pago</p>
-                <div className="row d-flex justify-content-center">
-                    <div className="col-4">
-                        <img src="/static/projects/coffee-club/coffee-pay-800x450.jpg" className="img-fluid" />
+            <div className="card bg-light my-5">
+                <p className="card-title text-center pt-3">Ejemplo de pago</p>
+                <div className="card-body">
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-12 col-lg-6 mb-3 mb-lg-4">
+                            <img src="/static/projects/coffee-club/coffee-pay-800x450.jpg" className="img-fluid" />
+                        </div>
+                    </div>
+                    <hr/>
+                    <div className="row d-flex justify-content-center mb-3 pt-5">
+                        <div className="col-12 col-lg-3 mb-3 mb-lg-4">
+                            <img src="/static/projects/coffee-club/coffee-pay2-800x450.jpg" className="img-fluid" />
+                        </div>
+                        <div className="col-1 d-flex justify-content-center align-items-center mb-3 my-lg-auto">
+                            <i class="fas fa-angle-double-down fa-4x  d-lg-none"></i>
+                            <i class="fas fa-angle-double-right fa-4x  d-none d-lg-block"></i>
+                        </div>
+                        <div className="col-12 col-lg-3 mb-3 mb-lg-4">
+                            <img src="/static/projects/coffee-club/coffee-pay3-800x450.jpg" className="img-fluid" />
+                        </div>
+                        <div className="col-1 d-flex justify-content-center align-items-center mb-3 my-lg-auto">
+                            <i class="fas fa-angle-double-down fa-4x  d-lg-none"></i>
+                            <i class="fas fa-angle-double-right fa-4x  d-none d-lg-block"></i>
+                        </div>
+                        <div className="col-12 col-lg-3 mb-3 mb-lg-4">
+                            <img src="/static/projects/coffee-club/coffee-pay4-800x450.jpg" className="img-fluid" />
+                        </div>
+                    </div>
+                    <hr/>
+                    <p className="card-title text-center">Dependiendo del resultado del pago el usuario es redirigido</p>
+                    <div className="row d-flex justify-content-center mb-5">
+                        <div className="col-12 col-lg-6 mb-3 my-lg-0">
+                            <img src="/static/projects/coffee-club/coffee-pay5-800x450.jpg" className="img-fluid" />
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <img src="/static/projects/coffee-club/coffee-pay6-800x450.jpg" className="img-fluid" />
+                        </div>
                     </div>
                 </div>
-                <div className="row d-flex justify-content-center mb-3 pt-5">
-                    <div className="col-3">
-                        <img src="/static/projects/coffee-club/coffee-pay2-800x450.jpg" className="img-fluid" />
-                    </div>
-                    <div className="col-1 d-flex justify-content-center align-items-center">
-                        <i class="fas fa-angle-double-right fa-2x text-muted"></i>
-                    </div>
-                    <div className="col-3">
-                        <img src="/static/projects/coffee-club/coffee-pay3-800x450.jpg" className="img-fluid" />
-                    </div>
-                    <div className="col-1 d-flex justify-content-center align-items-center">
-                        <i class="fas fa-angle-double-right fa-2x text-muted"></i>
-                    </div>
-                    <div className="col-3">
-                        <img src="/static/projects/coffee-club/coffee-pay4-800x450.jpg" className="img-fluid" />
-                    </div>
-                </div>
-                <p className="card-title text-center text-muted pt-3">Dependiendo del resultado del pago el usuario es redirigido</p>
-                <div className="row d-flex justify-content-center mb-5">
-                    <div className="col-4">
-                        <img src="/static/projects/coffee-club/coffee-pay5-800x450.jpg" className="img-fluid" />
-                    </div>
-                    <div className="col-4">
-                        <img src="/static/projects/coffee-club/coffee-pay6-800x450.jpg" className="img-fluid" />
-                    </div>
-                </div>
             </div>
-            <div className="row mt-3 pt-5 text-center">
-                <p className="col-12 pt-5">Por último, el administrador puede gestionar los productos disponibles desde su cuenta:</p>
+            <div className="row mt-3 text-center">
+                <p className="col-12 py-5">Por último, el administrador puede gestionar los productos disponibles desde su cuenta:</p>
             </div>
-            <div className="card bg-light m-5">
-                <p className="card-title text-center text-muted pt-3">Gestión de productos</p>
+            <div className="card bg-light">
+                <p className="card-title text-center  pt-3">Gestión de productos</p>
                 <div className="card-body row d-flex justify-content-center">
-                    <div className="col-5">
+                    <div className="col-12 col-lg-6 mb-3 my-lg-auto">
                         <img src="/static/projects/coffee-club/coffee-admin-800x450.jpg" className="img-fluid" />
                     </div>
-                    <div className="col-5">
+                    <div className="col-12 col-lg-6 mb-3 my-lg-auto">
                         <img src="/static/projects/coffee-club/coffee-admin2-800x450.jpg" className="img-fluid" />
                     </div>
                 </div>
@@ -204,10 +210,10 @@ const CoffeeClub = () => {
             <hr />
             <h3 className="py-5">Puedes visitar los repositorios de este proyecto aquí:</h3>
             <div className="row mb-5 d-flex justify-content-around">
-                <a href="https://github.com/ierrandonea/proyecto-final-4geeks-front" className="col-5 btn btn-sm btn-outline-dark d-flex justify-content-center align-items-baseline pt-2" target="_blank">
+                <a href="https://github.com/ierrandonea/proyecto-final-4geeks-front" className="col-11 col-md-5 col-lg-5 btn btn-sm btn-outline-dark rounded-sm d-flex justify-content-center align-items-baseline pt-2 mb-3 mb-lg-0" target="_blank">
                     <h4 className="mr-2">Front</h4><i class="fab fa-github fa-2x"></i>
                 </a>
-                <a href="https://github.com/ierrandonea/proyecto-final-4geeks-back" className="col-5 btn btn-sm btn-outline-dark d-flex justify-content-center align-items-baseline pt-2" target="_blank">
+                <a href="https://github.com/ierrandonea/proyecto-final-4geeks-back" className="col-11 col-md-5 col-lg-5 btn btn-sm btn-outline-dark rounded-sm d-flex justify-content-center align-items-baseline pt-2 mb-3 mb-lg-0" target="_blank">
                     <h4 className="mr-2">Back</h4><i class="fab fa-github fa-2x"></i>
                 </a>
             </div>

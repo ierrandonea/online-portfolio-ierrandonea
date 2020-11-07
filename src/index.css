@@ -70,6 +70,10 @@ html {
   background-color: black;
 }
 
+.bg-light {
+  background-color: #b5b5b5 !important;
+}
+
 .img-fluid {
   width: 100%;
 }
