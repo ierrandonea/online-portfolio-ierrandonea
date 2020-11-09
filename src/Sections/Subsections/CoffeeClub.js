@@ -1,15 +1,18 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const CoffeeClub = () => {
-    const history = useHistory();
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
     return (
         <div className="container font-pridi animate__animated animate__fadeInDown">
             <div className="row pb-3 pt-4">
-                <span className="btn btn-secondary" onClick={() => { history.push("/") }}>Volver</span>
+                <Link
+                    className="btn btn-secondary"
+                    to="/#projects">
+                    Volver
+                </Link>
             </div>
             <h2 className="py-5">The Coffee Club</h2>
             <div className="row">
@@ -161,7 +164,7 @@ const CoffeeClub = () => {
                             <img src="/static/projects/coffee-club/coffee-pay-800x450.jpg" className="img-fluid" />
                         </div>
                     </div>
-                    <hr/>
+                    <hr />
                     <div className="row d-flex justify-content-center mb-3 pt-5">
                         <div className="col-12 col-lg-3 mb-3 mb-lg-4">
                             <img src="/static/projects/coffee-club/coffee-pay2-800x450.jpg" className="img-fluid" />
@@ -181,7 +184,7 @@ const CoffeeClub = () => {
                             <img src="/static/projects/coffee-club/coffee-pay4-800x450.jpg" className="img-fluid" />
                         </div>
                     </div>
-                    <hr/>
+                    <hr />
                     <p className="card-title text-center">Dependiendo del resultado del pago el usuario es redirigido</p>
                     <div className="row d-flex justify-content-center mb-5">
                         <div className="col-12 col-lg-6 mb-3 my-lg-0">

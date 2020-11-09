@@ -1,15 +1,18 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Cuncumen = () => {
-    const history = useHistory();
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
     return (
         <div className="container-fluid font-pridi animate__animated animate__fadeInDown">
             <div className="row pb-3 pt-4 px-3">
-                <span className="btn btn-secondary" onClick={() => { history.push("/") }}>Volver</span>
+                <Link
+                    className="btn btn-secondary"
+                    to="/#projects">
+                    Volver
+                </Link>
             </div>
             <div className="row">
                 <div className="col-12">
